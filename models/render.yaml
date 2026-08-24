@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: realtime-ml-prediction-api
+    runtime: docker
+    healthCheckPath: /health
+    autoDeploy: true
