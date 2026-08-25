@@ -9,7 +9,7 @@ ENV PORT=10000
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY app ./app
+COPY app.py ./app.py
 COPY models ./models
 
 EXPOSE 10000
